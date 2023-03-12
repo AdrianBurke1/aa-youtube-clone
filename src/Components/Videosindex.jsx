@@ -1,4 +1,3 @@
-
 function videoIndex (){
 
     return (
