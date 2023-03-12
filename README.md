@@ -1,8 +1,13 @@
-# Getting Started with Create React App
+# Youtube Clone
+## Arius Phillips
+## Adrian Burke
+[Trello](https://trello.com/b/nuIOCks8/youtube-project-94nw)
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
