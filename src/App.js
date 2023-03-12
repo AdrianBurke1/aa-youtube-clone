@@ -1,5 +1,8 @@
 import './App.css';
-
+import home from './Components/home';
+import navbar from './Components/Navbar';
+import videoIndex from './Components/Videosindex';
+import videoListing from './Components/videoListing';
 function App() {
   return (
     <div className="App">
