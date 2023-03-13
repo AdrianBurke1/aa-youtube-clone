@@ -3,7 +3,7 @@ export default function Header() {
       return (
         <header>
           <Link to="/">
-          <h1>Youtube</h1>
+          <h1 className="title">Youtube</h1>
           </Link>
           </header>
       );

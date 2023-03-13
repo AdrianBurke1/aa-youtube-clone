@@ -2,22 +2,28 @@ import {Route, Routes} from "react-router-dom";
 import "./App.css";
 import React from "react";
 import Header from "./Components/Header";
-import home from "./Components/home";
-import Navbar from "./Components/navbar";
-import videoIndex from "./Components/videosIndex";
-import videoListing from "./Components/videoListing";
+import Home from "./Components/Home.jsx";
+// import Navbar from "./Components/navbar";
+// import videoIndex from "./Components/VideosIndex";
+// import videoListing from "./Components/videoListing";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="title"> </h1>
-
-      <home />
       <Header />
-      <navBar />
+     <div className="wrapper">
+     <navBar />
+     
+     <main>
+     <Routes>
+      <Route path="/" element={<Home />} />
       <videoIndex />
       <videoListing />
       <videoEdit />
+      </Routes>
+      </main>
+      </div>
+      <footer />
     </div>
   );
 }
