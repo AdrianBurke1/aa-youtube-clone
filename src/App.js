@@ -1,15 +1,17 @@
+import {Route, Routes} from "react-router-dom";
 import "./App.css";
 import React from "react";
 import Header from "./Components/Header";
 import home from "./Components/home";
 import Navbar from "./Components/navbar";
-import videoIndex from "./Components/VideosIndex";
+import videoIndex from "./Components/videosindex";
 import videoListing from "./Components/videoListing";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="title"> </h1>
+      <h1 className="title">YouTube Clone</h1>
+      
 
       <home />
       <Header />
@@ -20,6 +22,8 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
 
