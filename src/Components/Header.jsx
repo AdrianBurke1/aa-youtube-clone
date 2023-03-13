@@ -1,4 +1,6 @@
 import React from "react";
+import "./Header.css";
+
 function Header() {
   return (
     <div className="header d-flex align-items-center justify-content-space-between">
@@ -8,8 +10,8 @@ function Header() {
             viewBox="0 0 24 24"
             preserveAspectRatio="xMidYMid meet"
             focusable="false"
-            class="style-scope yt-icon"
-            style={{"width" : "30px" , "height" : "30px"}}
+            class="style-scope yt-icon pointer"
+            style={{"width" : "28px" , "height" : "30px"}}
           >
             <g class="style-scope yt-icon">
               <path
