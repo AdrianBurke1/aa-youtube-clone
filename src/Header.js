@@ -28,7 +28,7 @@ function Header() {
              <NotificationsIcon className="header_icon" />
              <AccountCircleIcon
              alt="Adrian Burke"
-             src="https://github.com/account"/>
+             src="/Users/adrianburke/Desktop/aa-youtube-clone/src/IMG_2823.JPG"/>
              </div>
              
         </div>

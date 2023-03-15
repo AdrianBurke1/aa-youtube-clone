@@ -3,7 +3,7 @@ import React from "react"
 function VideoListing (){
     
     return(
-        <div className="videolisting">
+        <div className="videoListing">
         <h2>Recommened</h2>
         </div>
     )

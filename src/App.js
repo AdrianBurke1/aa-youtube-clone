@@ -9,10 +9,8 @@ import VideoListing from "./VideoListing";
 function App() {
   return (
     <div className="app">
-      <h1></h1>
-
-
-      <Header />
+  
+    <Header />
         <div className="app_page">
         <Sidebar />
         <VideoListing />
