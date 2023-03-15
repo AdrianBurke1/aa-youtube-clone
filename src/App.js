@@ -1,32 +1,27 @@
-import {Route, Routes} from "react-router-dom";
 import "./App.css";
 import React from "react";
-import Header from "./Components/Header";
-import Home from "./Components/Home.jsx";
-// import Navbar from "./Components/navbar";
-// import videoIndex from "./Components/VideosIndex";
-// import videoListing from "./Components/videoListing";
+import Header from "./Header";
+import Sidebar from "./Sidebar";
+import VideoListing from "./VideoListing";
+
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <h1></h1>
+
+
       <Header />
-     <div className="wrapper">
-     <navBar />
-     
-     <main>
-     <Routes>
-      <Route path="/" element={<Home />} />
-      <videoIndex />
-      <videoListing />
-      <videoEdit />
-      </Routes>
-      </main>
+        <div className="app_page">
+        <Sidebar />
+        <VideoListing />
       </div>
-      <footer />
     </div>
   );
 }
+
+
 
 export default App;
 
