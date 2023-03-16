@@ -19,7 +19,7 @@ function Header() {
             </div>
              
              <div className="header_input">
-             <input placeholder="Search" type="text" />
+             <input className="header_input_input" placeholder="Search" type="text" />
              <SearchIcon className="header_inputButton" />
              </div>
              
@@ -28,7 +28,7 @@ function Header() {
              <NotificationsIcon className="header_icon" />
              <AccountCircleIcon
              alt="Adrian Burke"
-             src="https://github.com/account"/>
+             src="https://media.licdn.com/dms/image/D4E03AQFeuZuIDx-B2Q/profile-displayphoto-shrink_400_400/0/1666210873536?e=1684368000&v=beta&t=hmD9XWPcdYnuP39wc3TtjCj5t_nmvn-xEFuDb0Gleug"/>
              </div>
              
         </div>
