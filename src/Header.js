@@ -4,7 +4,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import VideoCallIcon from '@mui/icons-material/VideoCall';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import Avatar from '@mui/material/Avatar';
+import AppsIcon from '@mui/icons-material/Apps';
 
 
 function Header() {
@@ -26,10 +27,8 @@ function Header() {
              <div className="header_icons">
              <VideoCallIcon className="header_icon"/>
              <NotificationsIcon className="header_icon" />
-             <AccountCircleIcon
-             alt="Adrian Burke"
-             src="https://media.licdn.com/dms/image/D4E03AQFeuZuIDx-B2Q/profile-displayphoto-shrink_400_400/0/1666210873536?e=1684368000&v=beta&t=hmD9XWPcdYnuP39wc3TtjCj5t_nmvn-xEFuDb0Gleug"/>
-             </div>
+             <AppsIcon className="header_icon" />
+             <Avatar alt="Adrian Burke" src="https://avatars.githubusercontent.com/u/114108495?v=4" sx={{ width: 36, height: 36 }} /></div>
              
         </div>
             

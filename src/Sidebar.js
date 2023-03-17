@@ -10,15 +10,17 @@ import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import WatchLaterIcon from '@mui/icons-material/WatchLater';
 import ThumbUpAltOutlinedIcon from '@mui/icons-material/ThumbUpAltOutlined';
 import ExpandMoreOutlinedIcon from '@mui/icons-material/ExpandMoreOutlined';
+import PersonIcon from '@mui/icons-material/Person';
 
 
 function Sidebar() {
   return (
     <div className="sidebar">
       <SidebarRow selected Icon={HomeIcon} title="Home" />
+      <SidebarRow Icon={PersonIcon} title=" About " />
+      <hr />
       <SidebarRow Icon={WhatshotIcon}title="Trending" />
       <SidebarRow Icon={SubscriptionsIcon}title="Subcription" />
-      <hr />
       <SidebarRow Icon={VideoLibraryIcon}title="Library" />
       <SidebarRow Icon={HistoryIcon}title="History" />
       <SidebarRow Icon={OndemandVideoIcon}title="Your Videos" />
