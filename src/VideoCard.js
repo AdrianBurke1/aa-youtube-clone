@@ -1,11 +1,12 @@
-import { Avatar } from "@mui/material";
+import {Avatar} from "@mui/material";
+import "./VideoCard.css"
 import React from "react";
 
 function VideoCard(props) {
   const { image, title, channel, views, timestamp, channelImage } = props;
   return (
     <div className="videoCard">
-      <img src={image} alt="" />
+      <img className="videoCard_thumbnail" src={image} alt="" />
       <div className="videoCard_info">
         <Avatar className="video_avatar" alt={channel} src={channelImage} />
         <div className="video_text">
