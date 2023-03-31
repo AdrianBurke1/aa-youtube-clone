@@ -12,7 +12,7 @@
 .header_logo{
     height: 25px;
     object-fit: contain;
-    margin-left: 20px;
+    margin-left: 8px;
     transform: rotate(180deg);
 }
 
@@ -46,6 +46,7 @@
 .header_icons{
     display: flex;
     align-items: center;
+    justify-items: center;
 }
 .header_icon:hover{
     background-color: lightgray;
