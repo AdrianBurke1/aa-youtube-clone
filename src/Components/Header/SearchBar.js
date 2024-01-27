@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import SearchIcon from "@mui/icons-material/Search";
+import SearchIcon from "@mui/icons-material/Search"; // Import the YtVid component
+
 
 const SearchBar = ({ onSearch }) => {
   const [searchTerm, setSearchTerm] = useState("");

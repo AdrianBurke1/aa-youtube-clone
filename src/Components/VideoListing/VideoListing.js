@@ -1,5 +1,5 @@
 import React from "react"
-import VideoCard from "./VideoCard";
+import VideoCard from "../VideoCard/VideoCard";
 import "./VideoListing.css"
 
 function VideoListing (){

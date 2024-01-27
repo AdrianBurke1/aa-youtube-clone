@@ -1,3 +1,26 @@
 .app_page {
   display: flex;
 }
+
+.videos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+  gap: 10px; /* Adjust the gap to your preference */
+  justify-items: center;
+}
+
+
+.video {
+  width: calc(33.33% - 10px); /* Display three videos in each row */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+/* app.css */
+.app {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  /* Other styles */
+}
+
+
+
