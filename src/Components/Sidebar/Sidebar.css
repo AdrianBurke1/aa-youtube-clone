@@ -1,0 +1,55 @@
+.sidebar{
+    /* 0.2 = 20% */
+    flex: 0.2; 
+    height: 100%;
+    display: flexbox;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin: 10px 0;
+  }
+
+  .sidebar {
+    flex: 0 0 20%;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .container {
+    display: flex;
+  }
+
+  .sidebar {
+    flex: 0 0 20%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    position: relative; /* Required for ::after pseudo-element */
+  }
+
+  .sidebar::after {
+    content: ""; /* Required content for pseudo-element */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px; /* Adjust the width of the border as needed */
+    height: 100%;
+    background-color: lightgray; /* Border color */
+  }
+
+  a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the text color */
+  }
+

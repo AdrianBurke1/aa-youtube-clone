@@ -1,0 +1,6 @@
+/* light-mode.css */
+:root {
+    --bg-color: #fff; /* Background color in light mode */
+    --text-color: #000; /* Text color in light mode */
+  }
+  
